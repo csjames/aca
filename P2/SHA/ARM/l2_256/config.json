@@ -269,7 +269,7 @@
                         "role": "MASTER"
                     }, 
                     "mshrs": 4, 
-                    "writeback_clean": true, 
+                    "writeback_clean": false, 
                     "p_state_clk_gate_min": 1000, 
                     "tags": {
                         "size": 32768, 
@@ -296,7 +296,7 @@
                     "addr_ranges": [
                         "0:18446744073709551615:0:0:0:0"
                     ], 
-                    "is_read_only": true, 
+                    "is_read_only": false, 
                     "prefetch_on_access": false, 
                     "path": "system.cpu.icache", 
                     "data_latency": 2, 
